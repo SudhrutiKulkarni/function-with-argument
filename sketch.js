@@ -16,7 +16,7 @@ function setup() {
 function draw() {
   background(0,0,0);  
 
-isbounceOff();  
+isbounceOff(movingRect, fixedRect);  
   drawSprites();
 }
 function isbounceOff (object1, object2){
